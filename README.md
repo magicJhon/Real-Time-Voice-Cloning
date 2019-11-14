@@ -1,3 +1,5 @@
+Google 团队提出了一种文本语音合成（text to speech）神经系统，能通过少量样本学习到多个不同说话者（speaker）的语音特征，并合成他们的讲话音频。此外，对于训练时网络没有接触过的说话者，也能在不重新训练的情况下，仅通过未知说话者数秒的音频来合成其讲话音频，即网络具有零样本学习能力。
+
 # Real-Time Voice Cloning
 This repository is an implementation of [Transfer Learning from Speaker Verification to
 Multispeaker Text-To-Speech Synthesis](https://arxiv.org/pdf/1806.04558.pdf) (SV2TTS) with a vocoder that works in real-time. Feel free to check [my thesis](https://matheo.uliege.be/handle/2268.2/6801) if you're curious or if you're looking for info I haven't documented yet (don't hesitate to make an issue for that too). Mostly I would recommend giving a quick look to the figures beyond the introduction.
